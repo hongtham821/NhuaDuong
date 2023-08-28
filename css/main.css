@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root{
+  --smooth: all .3s ease-in;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.summary, .keywords, .introduction, .Document{
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.summary p {
+  font-weight: 200;
+}
+
+.introduction p, .Document p, .Forecast p{
+  font-weight: 200;
+}
+
+.Forecast {
+    margin: 0 auto; /* Căn giữa phần dự báo */
+    text-align: center; /* Căn giữa nội dung trong phần dự báo */
+    padding: 20px;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: var(--smooth);
+}
+  
